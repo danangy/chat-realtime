@@ -1,6 +1,6 @@
 # Real-Time Chat Application
 
-A simple real-time chat web application built with **Ruby on Rails** and deployed online.
+A simple real-time chat web application built with **Ruby on Rails** and deployed online on https://zkcm5p-3000.csb.app/
 
 ![Preview](https://raw.githubusercontent.com/danangy/chat-realtime/1f98cb719226bc08720b3d3043695008012b7c5d/chat.png)
 
