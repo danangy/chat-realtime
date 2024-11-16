@@ -1,0 +1,80 @@
+body {
+    background-color: #3d3c3c;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+#chat-box {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  #messages {
+    margin-top: 20px;
+  }
+  
+  #messages h3 {
+    color: #F79817;
+  }
+  
+  #messages div {
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 300px;
+    overflow-y: scroll;
+  }
+  
+  #messages p {
+    background-color: #F79817;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    width: fit-content;
+    max-width: 70%;
+  }
+  
+  #messages p.self {
+    background-color: #6a5acd;
+    align-self: flex-end;
+  }
+  
+  .chat-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .chat-form textarea {
+    flex: 1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+/* Submit button style (rounded) */
+.chat-form input[type="submit"] {
+    background-color: #F79817;
+    color: #fff;
+    border: none;
+    border-radius: 50%; /* Full rounding for circular button */
+    padding: 12px 20px; /* Adjust padding to make button circular */
+    cursor: pointer;
+    width: 50px; /* Set width and height to make the button round */
+    height: 50px; /* Set height equal to width to ensure it's circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  

@@ -1,0 +1,16 @@
+<div id="chat-box">
+  <div id="messages">
+    <% @chats.each do |chat| %>
+      <h3><%= chat.name %></h3>
+      <div id="chat_<%= chat.id %>" style="border: 1px solid #ccc; padding: 10px; margin-bottom: 20px; height: 300px; overflow-y: scroll;">
+        <% chat.messages.each do |message| %>
+          <p><%= message.body %></p>
+        <% end %>
+      </div>
+      <%= form_with(model: [chat, Message.new], local: true) do |form| %>
+        <%= form.text_area :body, placeholder: "Type a message...", rows: 3, style: "width: 100%;" %>
+        <%= form.submit "Send", style: "margin-top: 10px;" %>
+      <% end %>
+    <% end %>
+  </div>
+</div>
