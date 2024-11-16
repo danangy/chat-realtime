@@ -2,6 +2,9 @@
 
 A simple real-time chat web application built with **Ruby on Rails** and deployed online.
 
+![Preview](https://raw.githubusercontent.com/danangy/chat-realtime/1f98cb719226bc08720b3d3043695008012b7c5d/chat.png)
+
+
 ---
 
 ## Features
